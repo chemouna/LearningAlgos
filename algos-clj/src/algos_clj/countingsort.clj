@@ -3,3 +3,6 @@
 (defn counting-sort
   ([coll] (counting-sort coll (apply min coll) (apply max coll)))
   ([coll min max] (let [i 0 (counts ))))
+
+
+;; to look at for this : map cat 
